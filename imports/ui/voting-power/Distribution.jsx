@@ -37,7 +37,7 @@ export default class Distribution extends Component{
                             padding: '15px 20px 15px 20px'
                         }}>
             <Helmet>
-                <title>Voting Power Distribution on Color Explorer | Color</title>
+                <title>Voting Power Distribution on Antlia Explorer | RNS Solutions Pvt Ltd</title>
                 <meta name="description" content="We would like to keep track how voting power are distributed over time among validators." />
             </Helmet>
             <Row>
@@ -59,7 +59,7 @@ export default class Distribution extends Component{
                 <SideNav.Nav selected={selected} defaultSelected="voting-power-distribution">
                     <NavItem eventKey="dashboard" onClick={ e => this.props.history.push("/") } title="Dashboard">
                         <NavIcon>
-                            <i className="fa fa-fw fa-th-large" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-qrcode" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Dashboard
@@ -68,7 +68,7 @@ export default class Distribution extends Component{
                     </NavItem>
                     <NavItem eventKey="validators" onClick={ e => this.props.history.push("/validators") } title="Validators">
                         <NavIcon>
-                            <i className="fa fa-fw fa-signal" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-project-diagram" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Validators
@@ -77,7 +77,7 @@ export default class Distribution extends Component{
                     </NavItem>
                     <NavItem eventKey="blocks" onClick={ e => this.props.history.push("/blocks") } title="Blocks">
                         <NavIcon>
-                            <i className="fa fa-fw fa-cube" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-cubes" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Blocks
@@ -86,7 +86,7 @@ export default class Distribution extends Component{
                     </NavItem>
                     <NavItem eventKey="transactions" onClick={ e => this.props.history.push("/transactions") } title="Transactions">
                         <NavIcon>
-                            <i className="fa fa-fw fa-random" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-exchange-alt" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Transactions
@@ -95,7 +95,7 @@ export default class Distribution extends Component{
                     </NavItem>
                     <NavItem eventKey="proposals" onClick={ e => this.props.history.push("/proposals") } title="Proposals">
                         <NavIcon>
-                            <i className="fa fa-fw fa-list-ul" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-tasks" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Proposals
@@ -104,7 +104,7 @@ export default class Distribution extends Component{
                     </NavItem>
                     <NavItem eventKey="voting-power-distribution" onClick={ e => this.props.history.push("/voting-power-distribution") } title="Voting Power">
                         <NavIcon>
-                            <i className="fa fa-fw fa-bolt" style={{ fontSize: '1.5em', color: 'black'}} />
+                            <i className="fa fa-fw fa-chart-line" style={{ fontSize: '1.5em', color: 'black'}} />
                         </NavIcon>
                         <NavText>
                             Voting Power

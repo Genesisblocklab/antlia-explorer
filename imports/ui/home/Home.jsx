@@ -59,8 +59,8 @@ export default class Home extends Component{
                         padding: '15px 20px 0 20px'
                     }}>
             <Helmet>
-                <title>Color | Explorer by RNS</title>
-                <meta name="description" content="Color is a decentralized network of independent parallel blockchains, each powered by BFT consensus algorithms like Tendermint consensus." />
+                <title>Antlia | Explorer by RNS Solutions Pvt Ltd</title>
+                <meta name="description" content="Antlia is a decentralized network of independent parallel blockchains, each powered by BFT consensus algorithms like Tendermint consensus." />
             </Helmet>
             <Row>
                 <Col md={3} xs={12}><h1>{Meteor.settings.public.chainName}</h1></Col>
@@ -71,19 +71,19 @@ export default class Home extends Component{
                         </Card>:''}
             <Row>
                 <Col md={6}>
-                    <ChainStatus />
+                    <PieChart />
                 </Col>
                 <Col md={6}>
-                    <br></br>
-                    <Consensus />
+                    <ChainStatus />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
-                    <PieChart />
+                    <TopValidators />
                 </Col>
                 <Col md={6}>
-                    <TopValidators />
+                    <br></br>
+                    <Consensus />
                 </Col>
             </Row>
 
@@ -93,7 +93,7 @@ export default class Home extends Component{
                 <SideNav.Nav selected={selected} defaultSelected="dashboard">
                     <NavItem eventKey="dashboard" onClick={ e => this.props.history.push("/") } title="Dashboard">
                         <NavIcon>
-                            <i className="fa fa-fw fa-th-large" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-qrcode" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Dashboard
@@ -102,7 +102,7 @@ export default class Home extends Component{
                     </NavItem>
                     <NavItem eventKey="validators" onClick={ e => this.props.history.push("/validators") } title="Validators">
                         <NavIcon>
-                            <i className="fa fa-fw fa-signal" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-project-diagram" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Validators
@@ -111,7 +111,7 @@ export default class Home extends Component{
                     </NavItem>
                     <NavItem eventKey="blocks" onClick={ e => this.props.history.push("/blocks") } title="Blocks">
                         <NavIcon>
-                            <i className="fa fa-fw fa-cube" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-cubes" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Blocks
@@ -120,7 +120,7 @@ export default class Home extends Component{
                     </NavItem>
                     <NavItem eventKey="transactions" onClick={ e => this.props.history.push("/transactions") } title="Transactions">
                         <NavIcon>
-                            <i className="fa fa-fw fa-random" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-exchange-alt" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Transactions
@@ -129,7 +129,7 @@ export default class Home extends Component{
                     </NavItem>
                     <NavItem eventKey="proposals" onClick={ e => this.props.history.push("/proposals") } title="Proposals">
                         <NavIcon>
-                            <i className="fa fa-fw fa-list-ul" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-tasks" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Proposals
@@ -138,7 +138,7 @@ export default class Home extends Component{
                     </NavItem>
                     <NavItem eventKey="voting-power-distribution" onClick={ e => this.props.history.push("/voting-power-distribution") } title="Voting Power">
                         <NavIcon>
-                            <i className="fa fa-fw fa-bolt" style={{ fontSize: '1.5em', color: 'black'}} />
+                            <i className="fa fa-fw fa-chart-line" style={{ fontSize: '1.5em', color: 'black'}} />
                         </NavIcon>
                         <NavText>
                             Voting Power

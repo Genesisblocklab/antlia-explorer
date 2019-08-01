@@ -179,20 +179,20 @@
  }
  
  a {
-     color:  #59ccc8;
+     color:  rgb(1, 53, 100);
      text-decoration: none;
      background-color: transparent
  }
  
  a:hover {
-     color: #2f2637 !important;
+     color: #9e0819 !important;
      text-decoration: underline
  }
  
  a.nav-link.active:hover,
  a.float-right.white:hover
  {
-    color: #59ccc8 !important
+    color: #9e0819 !important
  }
 
  a:not([href]):not([tabindex]) {
@@ -2777,8 +2777,8 @@
  .btn:focus,
  .btn.focus {
      outline: 0;
-     -webkit-box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.25);
-     box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.25)
+     -webkit-box-shadow: 0 0 0 0.2rem #2f2d3f;
+     box-shadow: 0 0 0 0.2rem #2f2d3f
  }
  
  .btn.disabled,
@@ -2793,16 +2793,16 @@
  
  .btn-primary {
      color: #fff;
-     background: #2f2d3f -webkit-gradient(linear, left top, left bottom, from(#2f2d3f), to(#2f2d3f)) repeat-x;
-     background: #2f2d3f linear-gradient(180deg, #2f2d3f, #2f2d3f) repeat-x;
-     border-color: #2f2d3f
+     background: rgb(1, 53, 100) -webkit-gradient(linear, left top, left bottom, from(rgb(1, 53, 100)), to(rgb(1, 53, 100))) repeat-x;
+     background: rgb(1, 53, 100) linear-gradient(180deg, rgb(1, 53, 100), rgb(1, 53, 100)) repeat-x;
+     border-color: rgb(1, 53, 100)
  }
  
  .btn-primary:hover {
-     color: #59ccc8 !important;
-     background: #2f2637 -webkit-gradient(linear, left top, left bottom, from(#2f2637), to(#2f2637)) repeat-x;
-     background: #2f2637 linear-gradient(180deg, #2f2637, #2f2637) repeat-x;
-     border-color: #2f2637
+     color: white !important;
+     background: #9e0819 -webkit-gradient(linear, left top, left bottom, from(#9e0819), to(#9e0819)) repeat-x;
+     background: #9e0819 linear-gradient(180deg, #9e0819, #9e0819) repeat-x;
+     border-color: #9e0819
  }
  
  .btn-primary:focus,
@@ -2823,9 +2823,9 @@
  .btn-primary:not(:disabled):not(.disabled).active,
  .show>.btn-primary.dropdown-toggle {
      color: #fff;
-     background-color: #2f2637;
+     background-color: rgb(1, 53, 100);
      background-image: none;
-     border-color: #2f2637
+     border-color: rgb(1, 53, 100)
  }
  
  .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -3334,25 +3334,25 @@
  }
  
  .btn-outline-danger {
-     color: #2f2637;
-     border-color: #2f2637
+     color: #9e0819;
+     border-color: #9e0819
  }
  
  .btn-outline-danger:hover {
-     color: #fff;
-     background-color: #2f2d3f;
-     border-color: #2f2d3f
+     color: #fff !important;
+     background-color: #9e0819;
+     border-color: #9e0819
  }
  
  .btn-outline-danger:focus,
  .btn-outline-danger.focus {
-     -webkit-box-shadow: 0 0 0 0.2rem rgba(229, 28, 35, 0.5);
-     box-shadow: 0 0 0 0.2rem rgba(229, 28, 35, 0.5)
+     -webkit-box-shadow: 0 0 0 0.2rem #9e0819;
+     box-shadow: 0 0 0 0.2rem #9e0819
  }
  
  .btn-outline-danger.disabled,
  .btn-outline-danger:disabled {
-     color: #59ccc8;
+     color: #9e0819;
      background-color: transparent
  }
  
@@ -3360,15 +3360,15 @@
  .btn-outline-danger:not(:disabled):not(.disabled).active,
  .show>.btn-outline-danger.dropdown-toggle {
      color: #fff;
-     background-color: #e51c23;
-     border-color: #e51c23
+     background-color: #9e0819;
+     border-color: #9e0819
  }
  
  .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
  .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
  .show>.btn-outline-danger.dropdown-toggle:focus {
-     -webkit-box-shadow: 0 0 0 0.2rem rgba(229, 28, 35, 0.5);
-     box-shadow: 0 0 0 0.2rem rgba(229, 28, 35, 0.5)
+     -webkit-box-shadow: 0 0 0 0.2rem #9e0819;
+     box-shadow: 0 0 0 0.2rem #9e0819
  }
  
  .btn-outline-light {
@@ -4693,7 +4693,7 @@
  .nav-pills .nav-link.active,
  .nav-pills .show>.nav-link {
      color: #fff;
-     background-color: #2f2637
+     background-color: rgb(1, 53, 100)
  }
  
  .nav-fill .nav-item {
@@ -4733,7 +4733,8 @@
      -webkit-box-pack: justify;
      -ms-flex-pack: justify;
      justify-content: space-between;
-     padding: 1rem 1rem
+     padding: 4px 1rem;
+     background-color: rgb(1, 53, 100);
  }
  
  .navbar>.container,
@@ -5615,7 +5616,7 @@
  
  .badge-primary {
      color: #fff;
-     background-color: #2f2637
+     background-color: #9e0819
  }
  
  a.badge-primary:hover,
@@ -5967,7 +5968,7 @@
      color: #fff;
      text-align: center;
      white-space: nowrap;
-     background-color: #2f2637;
+     background-color: rgb(1, 53, 100);
      -webkit-transition: width 0.6s ease;
      transition: width 0.6s ease
  }
@@ -7342,17 +7343,17 @@
  }
 
  .backgroundcolor {
-    background-color: #2f2d3f !important;
+    background-color: rgb(1, 53, 100) !important;
     color: white !important
  }
 
  .color {
-     background-color: #2f2d3f !important;
+     background-color: rgb(1, 53, 100) !important;
      border-radius: 8px
  }
 
  .footer-color {
-    background-color: #2F2637 !important
+    background-color: rgb(1, 53, 100) !important
  }
 
  .bg-primary {
@@ -11066,6 +11067,7 @@
  
  .navbar {
      border: none;
+     height: 64px;
      -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3)
  }
@@ -12426,23 +12428,23 @@
  .nav-tabs .nav-link:hover,
  .nav-tabs .nav-link:focus:hover {
      background-color: transparent;
-     -webkit-box-shadow: inset 0 -2px 0 #59ccc8;
-     box-shadow: inset 0 -2px 0 #59ccc8;
-     color: #59ccc8
+     -webkit-box-shadow: inset 0 -2px 0 #9e0819;
+     box-shadow: inset 0 -2px 0 #9e0819;
+     color: #9e0819
  }
  
  .nav-tabs .nav-link.active,
  .nav-tabs .nav-link.active:focus {
      border: none;
-     -webkit-box-shadow: inset 0 -2px 0 #59ccc8;
-     box-shadow: inset 0 -2px 0 #59ccc8;
-     color: #59ccc8
+     -webkit-box-shadow: inset 0 -2px 0 #9e0819;
+     box-shadow: inset 0 -2px 0 #9e0819;
+     color: #9e0819
  }
  
  .nav-tabs .nav-link.active:hover,
  .nav-tabs .nav-link.active:focus:hover {
      border: none;
-     color: #59ccc8
+     color: #9e0819
  }
  
  .nav-tabs .nav-link.disabled {

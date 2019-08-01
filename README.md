@@ -1,11 +1,11 @@
-# Color :sparkles:
-Color Explorer for Color
+# Antlia :sparkles:
+Antlia Explorer for RNS Solutions Pvt Ltd
 
 ## Projects running on mainnets
-[Color Explorer with Color](http://ec2-3-15-152-52.us-east-2.compute.amazonaws.com:3000/)
+[Antlia Explorer with RNS Solutions Pvt Ltd](http://ec2-3-15-152-52.us-east-2.compute.amazonaws.com:3000/)
 
 
-## How to run Color
+## How to run Antlia
 
 1. Copy `settings.json.default` to `settings.json`.
 2. Update the RPC and LCD URLs.
@@ -31,7 +31,7 @@ It will create a packaged Node JS tarball at `../output`. Deploy that packaged N
 ---
 ## Donations :pray:
 
-Color is always free and open. Anyone can use to monitor available Color hub or zones, or port to your own chain built with Color SDK. We welcome any supports to help us improve this project.
+Antlia is always free and open. Anyone can use to monitor available Antlia hub or zones, or port to your own chain built with Antlia SDK. We welcome any supports to help us improve this project.
 
 ATOM: `colors1p9nck20mlgf7nn9yg7rpf5mg0uuztn4skv4q6d`\
 BTC: `1HrTuvS83VoUVA79wTifko69ziWTjEXzQS`\

@@ -63,7 +63,7 @@ export default class Header extends Component {
 
   render() {
       return (
-          <Navbar className="background" dark expand="lg" fixed="top" id="header">
+          <Navbar dark expand="lg" fixed="top" id="header">
               <NavbarBrand tag={Link} to="/"><img src="/img/ColorWhiteplatform1.png" className="img-fluid logo"/></NavbarBrand>
               <UncontrolledDropdown className="d-inline text-nowrap">
                   <DropdownToggle caret={(this.state.networks !== "")} tag="span" size="sm" id="network-nav">{Meteor.settings.public.chainId}</DropdownToggle>

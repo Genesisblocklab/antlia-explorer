@@ -105,8 +105,8 @@ export default class Transactions extends Component{
                         padding: '15px 20px 0 20px'
                     }}>
             <Helmet>
-                <title>Latest Transactions on Color Explorer | Color</title>
-                <meta name="description" content="See what is happening Color" />
+                <title>Latest Transactions on Antlia Explorer | RNS Solutions Pvt Ltd</title>
+                <meta name="description" content="See what is happening Antlia" />
             </Helmet>
             <Row>
                 <Col md={3} xs={12}><h1 className="d-none d-lg-block"><T>transactions.transactions</T></h1></Col>
@@ -136,7 +136,7 @@ export default class Transactions extends Component{
                 <SideNav.Nav selected={selected} defaultSelected="transactions">
                     <NavItem eventKey="dashboard" onClick={ e => this.props.history.push("/") } title="Dashboard">
                         <NavIcon>
-                            <i className="fa fa-fw fa-th-large" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-qrcode" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Dashboard
@@ -145,7 +145,7 @@ export default class Transactions extends Component{
                     </NavItem>
                     <NavItem eventKey="validators" onClick={ e => this.props.history.push("/validators") } title="Validators">
                         <NavIcon>
-                            <i className="fa fa-fw fa-signal" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-project-diagram" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Validators
@@ -154,7 +154,7 @@ export default class Transactions extends Component{
                     </NavItem>
                     <NavItem eventKey="blocks" onClick={ e => this.props.history.push("/blocks") } title="Blocks">
                         <NavIcon>
-                            <i className="fa fa-fw fa-cube" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-cubes" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Blocks
@@ -163,7 +163,7 @@ export default class Transactions extends Component{
                     </NavItem>
                     <NavItem eventKey="transactions" onClick={ e => this.props.history.push("/transactions") } title="Transactions">
                         <NavIcon>
-                            <i className="fa fa-fw fa-random" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-exchange-alt" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Transactions
@@ -172,7 +172,7 @@ export default class Transactions extends Component{
                     </NavItem>
                     <NavItem eventKey="proposals" onClick={ e => this.props.history.push("/proposals") } title="Proposals">
                         <NavIcon>
-                            <i className="fa fa-fw fa-list-ul" style={{ fontSize: '1.5em', color: 'black' }} />
+                            <i className="fa fa-fw fa-tasks" style={{ fontSize: '1.5em', color: 'black' }} />
                         </NavIcon>
                         <NavText>
                             Proposals
@@ -181,7 +181,7 @@ export default class Transactions extends Component{
                     </NavItem>
                     <NavItem eventKey="voting-power-distribution" onClick={ e => this.props.history.push("/voting-power-distribution") } title="Voting Power">
                         <NavIcon>
-                            <i className="fa fa-fw fa-bolt" style={{ fontSize: '1.5em', color: 'black'}} />
+                            <i className="fa fa-fw fa-chart-line" style={{ fontSize: '1.5em', color: 'black'}} />
                         </NavIcon>
                         <NavText>
                             Voting Power

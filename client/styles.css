@@ -74,8 +74,7 @@ div#loadmore {
 }
 
 a.navbar-brand .logo {
-    max-height: 50px;
-    max-width: 200px;
+    max-width: 110px
 }
 
 #header-search{
@@ -390,11 +389,11 @@ div#countdown {
 }
 
 #account .available{
-    background-color: #59ccc8
+    background-color: #9e0819
 }
 
 #account .delegated{
-    background-color: #f95387
+    background-color: rgb(1, 53, 100)
 }
 
 #account .unbonding{
@@ -497,7 +496,7 @@ div.transactions-list div.header{
 }
 
 .blocks-list .block .full{
-    background-color: #2f2d3f;
+    background-color: #9e0819;
 }
 
 .blocks-list .block .full,

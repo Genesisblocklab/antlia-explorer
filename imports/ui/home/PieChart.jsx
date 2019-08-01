@@ -35,12 +35,12 @@ export default class PieChart extends Component{
                                 bottomPercent
                             ],
                             backgroundColor: [
-                                '#b43db7',
-                                '#59ccc8'
+                                'rgb(1, 53, 100)',
+                                '#9e0819'
                             ],
                             hoverBackgroundColor: [
-                                '#b43db7',
-                                '#59ccc8'
+                                'rgb(1, 53, 100)',
+                                '#9e0819'
                             ]
                         }
                     ]
